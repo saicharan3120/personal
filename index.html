@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            
+            background: rgb(251, 249, 249); /* Replace with your image file path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.9); /* Slight white background for readability */
+            padding: 20px;
+            width: 400px;
+            margin: 50px auto;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <form>
+        <h2>Student Registration Form</h2>
+        Name:<input type="text"><br><br>
+        Email:<input type="text"><br><br>
+    </form>
+   
+<form>
+    <h2>Select Your Gender</h2>  
+<input type="radio" name="gender" value="male">Male<br> 
+<input type="radio" name="gender" value="female">Female<br> 
+<input type="radio" name="gender" value="other">Other 
+</form>
+
+<form>
+<h2>Select Your Skills</h2> 
+<input type="checkbox" name="skills" value="HTML">HTML<br> 
+<input type="checkbox" name="skills" value="CSS">CSS<br> 
+<input type="checkbox" name="skills" value="JavaScript">JavaScript<br> 
+</form> 
+
+<form>  
+<h2>Select your location</h2> 
+<select name="location"> 
+<option value="Hyderabad">Hyderabad</option> 
+<option value="Vizag">Vizag</option> 
+<option value="vijayawada">vijayawada</option> 
+
+</select> 
+</form>
+
+<form>
+    <h2>About Yourself</h2> 
+<textarea name="comments" rows="4" cols="50"></textarea> 
+
+</form>
+<form>
+<input type="submit" value="Submit"> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input type="submit" value="cancel"> 
+</form>
+<a href="login.html">Already registered? Click here to login</a>
+</body>
+</html>
